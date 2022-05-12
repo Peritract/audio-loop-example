@@ -11,4 +11,10 @@ Currently, the project uses a text file as a database, but this is an implementa
 - Install (in a virtual environment or otherwise as you prefer, I'm not a cop) the requirements listed in [./api/requirements.txt](./api/requirements.txt)
 - Run the API server from the `./api` folder with `python app.py`
 - Use `index.html` in the client folder to record audio and send it to the back-end.
-- Use `load-audio.html` to hear your dulcet tones played back to you.
+- Use `load-audio.html` in the client folder to hear your dulcet tones played back to you.
+
+## Points of interest
+
+- [./client/script.js](./client/script.js), which records audio, encodes it, and sends it to the API
+- [./client/load-audio.js](./client/load-audio.js), which requests data from the API, decodes it, and plays back the audio
+- [./api/app.py](./api/app.py), which doesn't do much other than save and send encoded data as requested
