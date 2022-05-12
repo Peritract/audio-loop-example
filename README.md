@@ -4,7 +4,7 @@ This repository contains a very small and hacked-together demo project.
 
 The project allows you to record audio on a webpage, send that audio to an API, and then later request it back from the same.
 
-Currently, the project uses a text file as a database, but this is an implementation detail; there's nothing preventing you using a database to store the audio data.
+Currently, the project uses a text file as a database, but this is an implementation detail; there's nothing preventing you from using a database to store the audio data.
 
 ## Usage
 
